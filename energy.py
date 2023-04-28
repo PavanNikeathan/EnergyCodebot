@@ -18,7 +18,7 @@ def energy_chatbot(msg):
 
     # Check for relevant keywords in message and respond accordingly
     if any(word in msg for word in energy_keywords):
-        response = "Here are some energy conservation tips: \n\n- Use energy-efficient appliances and electronics \n- Turn off appliances and electronics when not in use \n- Use power strips to reduce standby power usage \n- Keep your home well-insulated"
+        response = "Energy conservation refers to the practice of reducing the amount of energy used in various processes and activities without sacrificing the quality of the end product or service. This can be achieved by adopting more efficient technologies, changing our behaviors and habits, and reducing waste.\nHere are some energy conservation tips: \n\n- Use energy-efficient appliances and electronics \n- Turn off appliances and electronics when not in use \n- Use power strips to reduce standby power usage \n- Keep your home well-insulated"
     elif any(word in msg for word in carbon_keywords):
         response ="Carbon footprint refers to the amount of greenhouse gas emissions, primarily carbon dioxide, that is released into the atmosphere as a result of human activities such as driving a car, using electricity, and consuming food or goods. It is a measure of the impact of these activities on the environment, specifically on climate change. The carbon footprint is typically measured in units of carbon dioxide equivalents (CO2e), which takes into account the different potency of other greenhouse gases such as methane and nitrous oxide. The goal of reducing carbon footprint is to mitigate climate change and its effects on the environment and human health."
     elif any(word in msg for word in appliance_keywords):
