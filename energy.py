@@ -1,14 +1,11 @@
 import streamlit as st
-
 # Set up greeting message
 st.sidebar.title("Energy Conseumption Chatbot")
 st.sidebar.write("Enter a message to start a conversation with the chatbot")
-
 # Define conversation logic
 def Energy_chatbot(msg):
     # Convert input message to lowercase
     msg = msg.lower()
-
 # Define conservation-related keywords
 energy_keywords = ["energy", "conservation", "save", "usage", "waste"]
 appliance_keywords = ["appliances", "electronics", "devices", "power", "usage"]
@@ -23,10 +20,7 @@ elif any(word in msg for word in lighting_keywords):
     response = "Switching to LED light bulbs and turning off lights when you leave a room can save a lot of energy over time."
 else:
     response = "I'm sorry, I'm not sure how to help with that. Please ask me about energy conservation!"
-
 return response
-
-
 # Set up conversation interface
 user_input = st.text_input("You:", "")
 if user_input:
