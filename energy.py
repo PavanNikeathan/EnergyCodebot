@@ -12,7 +12,7 @@ def energy_chatbot(msg):
     # Define energy-related keywords
     energy_keywords = ["energy", "conservation", "save", "usage", "waste"]
     carbon_keywords =["carbon foot print"]
-    renewable_keywords=["sustainable energy","renewable energy","fossil fuels"]
+    renewable_keywords=["sustainable ","renewable ","fossil fuels"]
     appliance_keywords = ["appliances", "electronics", "devices", "power", "usage",]
     lighting_keywords = ["lighting", "bulbs", "led", "efficiency"]
 
